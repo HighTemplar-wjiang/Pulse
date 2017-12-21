@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/reimu_gray">
+
+    <TextView
+        android:text="Magnetometer \nX | Y | Z"
+        android:layout_marginTop="3sp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="15sp"
+        android:textColor="#00FF00"
+        android:id="@+id/tvMagnetometer"/>
+
+    <TextView
+        android:text="@string/statues"
+        android:textSize="18sp"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/tvStatus"/>
+
+    <TextView
+        android:text="@string/display"
+        android:textSize="18sp"
+        android:textColor="#FF00FF"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/tvDisplay"/>
+
+    <TextView
+        android:text="debug"
+        android:textSize="18sp"
+        android:textColor="#FF00FF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:id="@+id/tvDebug"/>
+
+    <Button
+        android:text="Calibrate"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:id="@+id/btnStart"/>
+
+</RelativeLayout>
